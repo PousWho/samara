@@ -1,0 +1,111 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+picture {
+  margin: 0;
+  padding: 0;
+}
+
+button,
+a {
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+
+body {
+    background-image: url("../Pictures/cover-image-dark.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    max-height: 200px;
+    background-color: blueviolet;
+    justify-content: space-between;
+}
+
+.samara {
+    justify-self: start;
+    align-self: center;
+    color: aliceblue;
+}
+
+.header__nav {
+    height: 100px;
+    align-self: center;
+    justify-self: end;
+    padding-right: 10px;
+
+}
+
+.header__ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    color: aliceblue;
+}
+
+.header__li {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.main {
+    display: grid;
+    padding-top: 20px;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.main__content {
+    display: grid;
+    row-gap: 20px;
+    padding: 0 10px;
+}
+
+.main__title {
+    height: auto;
+    background-color: blue;
+    color: aliceblue;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main__p {
+    color: white;
+}
+
+.main__img {
+  width: 100%;
+  
+}
